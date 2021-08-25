@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* design Home and navbar */
 .home-container{
 background-image: background-color: #36096d;
 background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
@@ -10,7 +20,7 @@ background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
   height: 100vh;
 }
 
-.title h1{
+#home h1{
   display: block;
   font-size: 120px;
   margin-top: 0px ;
@@ -30,10 +40,12 @@ background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
   display: flex;
   text-align: center;
   list-style: none;
+  flex-wrap: wrap;
+  flex-shrink: 0;
 }
 
 .navbar ul li{
-  margin: 15px 15px;
+  margin: 15px 10px;
   padding: 12px;
 }
 
@@ -42,6 +54,8 @@ background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
   text-decoration: none;
   color: white;
   padding: 0 10px;
+  font-size: 15px;
+
 }
 
  .navbar a:after{
@@ -58,34 +72,12 @@ background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
 .navbar a:hover{
   color: #DCDCDC;
 }
-.navbar a:hover::after{
+.navbar a:hover:after{
   width: 100%;
 
 }
 
-.btn{
-  background-color: #0061A8;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin-bottom: 80px;
-  margin-left: 35%;
-  margin-right: 2px;
-  margin-top: 30px;
-  cursor: pointer;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  border-radius: 100px;
-}
-
-.btn:active{
-  opacity: 0.6;
-}
-
+/* Animation in home page */
 .box div{
     position: absolute;
     width: 60px;
@@ -164,3 +156,156 @@ background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
     opacity: 0;
   }
  }
+
+/* Section */
+#team_profile{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+#tools{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+#project{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+#overview{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+#detail{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+#skill{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+#feedback{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+#group{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+#ref{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+
+#title{
+  text-align: center;
+  font-size: 60px;
+  margin: 30px 0;
+}
+
+
+/* Read more/less button */
+ .show_btn button{
+  background-color: #0061A8;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+
+  border-radius: 100px;
+
+}
+
+.show_btn button:active{
+   opacity: 0.6;
+}
+
+.text{
+  font-size: 24px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  text-align: left;
+  width: 80%;
+  line-height: 2;
+}
+
+.moreText{
+  display: none;
+}
+
+.content.show-more .moreText{
+  display: inline;
+}
+
+/* Scroll up button */
+#myBtn {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+  box-shadow: 0 0 10px black;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+i{
+  color: white;
+  font-size: 24px;
+
+}

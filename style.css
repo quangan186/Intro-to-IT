@@ -13,7 +13,12 @@ html{
 background-image: background-color: #36096d;
 background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
   width: auto;
-  height: 100vh;
+  height: auto;
+}
+
+#home{
+  width: 100%;
+  height: auto;
 }
 
 #home h1{
@@ -50,7 +55,7 @@ background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
   text-decoration: none;
   color: white;
   padding: 0 10px;
-  font-size: 15px;
+  font-size: 18px;
 
 }
 
@@ -155,88 +160,97 @@ background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
 
 /* Section */
 #team_profile{
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: #F4F9F9;
   color: black;
   display: inline-block;
   text-align: center;
+  /* margin: 0 50px 0 50px; */
+  margin-left: 80px;
+  margin-top: 100px;
 }
-#team_profile h1{
-  font-family: 'Rubik', sans-serif;
-}
+
 
 
 #tools{
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: #CCF2F4;
   color: black;
   display: inline-block;
   text-align: center;
+  margin-left: 80px;
 }
 
 
 #project{
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: #A4EBF3;
   color: black;
   display: inline-block;
   text-align: center;
+  margin-left: 80px;
 }
 
 #overview{
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: #F6F5F5;
   color: black;
   display: inline-block;
   text-align: center;
+  margin-left: 80px;
 }
 
 #detail{
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: #D3E0EA;
   color: black;
   display: inline-block;
   text-align: center;
+  margin-left: 80px;
 }
 
 #skill{
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: #1687A7;
   color: black;
   display: inline-block;
   text-align: center;
+  margin-left: 80px;
 }
 
 #feedback{
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: #276678;
   color: black;
   display: inline-block;
   text-align: center;
+  margin-left: 80px;
 }
 
 #group{
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: #BEDCFA;
   color: black;
   display: inline-block;
   text-align: center;
+  margin-left: 80px;
 }
 
 #ref{
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color:#AAAAAA;
-  color: white;
+  color: black;
   display: inline-block;
+  margin-left: 80px;
 }
 
 #title{
@@ -322,6 +336,7 @@ i{
   letter-spacing: 2;
 }
 
-#member h1{
-  font-size: 38px;
+#member h3{
+  font-size: 42px;
+  font-family: 'Rubik', sans-serif;
 }

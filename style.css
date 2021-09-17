@@ -548,3 +548,20 @@ h4{
   height: 400px;
   margin-left: 150px;
 }
+
+.repo{
+  width: 50%;
+  height: 60vh;
+  margin-bottom:30px;
+}
+
+.git_reflect img{
+  width: 50%;
+  height: 60vh;
+}
+
+#small-title3{
+  text-align: left;
+  font-size: 24px;
+  margin-left: 150px;
+}
